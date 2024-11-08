@@ -20,3 +20,13 @@ function closeModal() {
 closeModalButton.addEventListener('click', closeModal);
 
 
+const shareButtons = document.querySelectorAll('.share-button1');
+
+// Agrega el evento de clic a cada botón
+shareButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        // Aquí puedes definir la acción que deseas realizar al hacer clic
+        modalBackdrop.style.display = 'flex';
+        // También puedes ejecutar cualquier otra función o lógica aquí
+    });
+});

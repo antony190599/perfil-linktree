@@ -52,7 +52,7 @@ body {
 .link-button {
     display: block;
     width: 100%;
-    padding: 15px;
+    padding: 15px 0;
     margin: 10px 0;
     background-color: white;
     color: black;
@@ -61,6 +61,8 @@ body {
     border-radius: 30px;
     transition: background-color 0.3s;
     border: 3px solid #ffffff;
+
+    position: relative;
     
 }
 .link-button a {
@@ -258,5 +260,9 @@ body {
   }
 
  .share-button1 {
-    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 18px;
+    background: transparent;
+    border: none;
  }
