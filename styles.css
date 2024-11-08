@@ -241,8 +241,8 @@ body {
 
 
 .share-button {
-    /*position: absolute;*/
-    justify-self: end;
+    position: absolute;
+    /*justify-self: end;*/
     top: 0;
     bottom: 0;
     right: 6px;
