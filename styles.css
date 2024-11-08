@@ -15,7 +15,9 @@ body {
     color: white;
     text-align: center;
     gap: 20px;
+    
 }
+
 
 .container {
     max-width: 400px;
@@ -112,7 +114,7 @@ body {
 /* Contenedor del modal */
 .modal {
     background-color: white;
-    border-radius: 8px;
+    border-radius: 1.5rem;
     width: 90%;
     max-width: 512px;
     max-height: 75vh;
@@ -239,7 +241,8 @@ body {
 
 
 .share-button {
-    position: absolute;
+    /*position: absolute;*/
+    justify-self: end;
     top: 0;
     bottom: 0;
     right: 6px;

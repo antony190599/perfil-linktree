@@ -30,3 +30,12 @@ shareButtons.forEach(button => {
         // También puedes ejecutar cualquier otra función o lógica aquí
     });
 });
+
+const compButtons = document.querySelectorAll('.share-button');
+compButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        // Aquí puedes definir la acción que deseas realizar al hacer clic
+        modalBackdrop.style.display = 'flex';
+        // También puedes ejecutar cualquier otra función o lógica aquí
+    });
+});
